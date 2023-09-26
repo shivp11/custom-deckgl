@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "vite --open",
+    "start-local": "vite --config ../vite.config.local.mjs"
+  },
+  "dependencies": {
+    "@luma.gl/debug": "9.0.0-alpha.15",
+    "deck.gl": "^8.4.0",
+    "glsl-transpiler": "^1.8.5"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}

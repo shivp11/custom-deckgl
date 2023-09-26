@@ -1,0 +1,13 @@
+website/build
+**/dist*/**/*
+dist.js
+modules/*/typed
+*.min.js
+**/mapbox-gl-dev.js
+**/mapbox-gl.js
+*.md
+
+.cache
+.docusaurus
+
+modules/core/src/controllers/controller.ts

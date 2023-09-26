@@ -1,0 +1,23 @@
+{
+  "name": "deckgl-example-pure-js-carto",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --open",
+    "start-local": "vite --config ../../../vite.config.local.mjs",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "deck.gl": "^8.8.0",
+    "maplibre-gl": "^2.4.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "eslintConfig": {
+    "globals": {
+      "document": true
+    }
+  }
+}

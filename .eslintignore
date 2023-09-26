@@ -1,0 +1,14 @@
+dist/
+dist-es6/
+test/
+website/build/
+modules/*/typed
+node_modules/
+workers/
+dist.js
+*.min.js
+mapbox-gl.js
+.cache
+.docusaurus
+examples/
+test/apps/

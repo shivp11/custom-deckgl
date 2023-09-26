@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "vite --open",
+    "start-local": "vite --config ../vite.config.local.mjs"
+  },
+  "dependencies": {
+    "@deck.gl/carto": "^8.6.0",
+    "@deck.gl/core": "^8.6.0",
+    "@deck.gl/geo-layers": "^8.6.0",
+    "@deck.gl/layers": "^8.6.0",
+    "@deck.gl/mesh-layers": "^8.6.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "eslintConfig": {
+    "globals": {
+      "document": true,
+      "location": true,
+      "google": true,
+      "URLSearchParams": true,
+      "window": true
+    }
+  }
+}
